@@ -152,12 +152,23 @@ h1,h2,h3,h4,h5 p{
     text-align: center;
    
 }
+.rich-card{
+    width: 33%;
+}
 .card{
     margin: 1rem 0;
+    height: auto;
    
 }
 .card-img img{
-    width: 100%;
+    width: 90%;
+    height: 300px;
+    max-height: 230px;
+    max-width: 100%;
+    min-height: auto;
+    min-width: auto;
+    
+  
 }
 .card-title{
     padding: 0.5rem 0;
