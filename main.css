@@ -63,7 +63,7 @@ h1,h2,h3,h4,h5 p{
     border-radius: 5px;
     font-size: 18px;
     cursor: pointer; 
-    background-color: #000;
+    background-color: #F39237;
     color: #ffffff;
     transition: all 0.3s ease-in-out;
 }
@@ -261,4 +261,26 @@ h1,h2,h3,h4,h5 p{
   padding: 1rem 0;
   font-weight: 400;
   color: #ffffff;
+}
+
+.ready-section{
+    background-color: #F39237;
+    padding: 3rem 0;
+}
+
+.ready-text{
+  font-size: 2rem;
+}
+.ready-btn{
+    width: fit-content;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer; 
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+    color: #000;
 }
