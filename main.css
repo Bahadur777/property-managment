@@ -16,7 +16,13 @@ body{
 h1,h2,h3,h4,h5 p{
     margin: 0;
 }
-
+a{
+    text-decoration: none;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -283,4 +289,41 @@ h1,h2,h3,h4,h5 p{
     margin-bottom: .5rem;
     text-transform: capitalize;
     color: #000;
+}
+.footer{
+    padding: 2rem 0;
+    background-color: #F39237;
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    align-items: center;
+   
+}
+.footer-menu ul li{
+    padding: 0.5rem 0;
+}
+.footer-menu ul li a{
+    color: #000;
+    text-transform: capitalize;
+    
+}
+.social-icons{
+    padding: 2rem 0;
+    border-top: 1px solid #ffffff;
+}
+.social-icons ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+}
+.social-icons ul a {
+    color: #000;
+    font-size: 2rem;
 }
