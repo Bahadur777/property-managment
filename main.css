@@ -173,3 +173,92 @@ h1,h2,h3,h4,h5 p{
 .card-title{
     padding: 0.5rem 0;
 }
+
+
+
+.unleash-section-main{
+    width: 100%;
+    padding: 2rem 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, #F39237, #ffb574d0),url(./img/img-9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.unleash-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.unleash-left{
+    width: 40%;
+}
+.unleash-title{
+    padding: 1rem 0;
+}
+.unleash-title h1{
+    font-size: 3.5rem;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.unleash-btn{
+   width: 100%;
+   display: flex;
+   gap: .5rem;
+}
+.book-btn{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer; 
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.demo-btn{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer; 
+    background-color: #F39237;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.unleash-right{
+    width: 60%;
+}
+.unleash-card-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+.unleash-card{
+    border: 2px solid #F39237;
+    padding: 1rem;
+    height: min-content;
+    min-height: 500px;
+    overflow: hidden;
+}
+.cart-title h2{
+  text-align: left;
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  font-weight: 400;
+  color: #ffffff;
+}
