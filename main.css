@@ -387,3 +387,33 @@ li{
         flex-wrap: wrap;
     }
 }
+
+@media only screen and (min-width: 600px) {
+    .heading-title{
+        padding-top: 5rem;
+    }
+    .heading-title h1{
+        font-size: 3rem;
+    }
+    .rich-features{
+        height: fit-content;
+    }
+    .rich{
+        flex-wrap: wrap;
+    }
+    .rich-left-section{
+        width: 100%;
+    }
+    .rich-right-section{
+        width: 100%;
+    }
+    .rich-card{
+        width: 48%;
+    }
+    .unleash-section-main{
+        height: fit-content;
+    }
+    .unleash-left{
+        width: 100%;
+    }
+}
