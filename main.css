@@ -45,6 +45,13 @@ li{
     font-size: 3.5rem;
     color: #ffffff;
 }
+.main-text{
+    text-align: center;
+}
+.main-text p{
+    font-weight: 400;
+    color: #ffff;
+}
 .main-btn-section{
     text-align: center;
     padding-top: 1rem;
