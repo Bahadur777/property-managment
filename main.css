@@ -416,4 +416,24 @@ li{
     .unleash-left{
         width: 100%;
     }
+    .rich-card-section{
+        flex-wrap: wrap;
+    }
+    .unleash-section{
+        display: block;
+    }
+    .unleash-title h1{
+        font-size: 2.5rem;
+    }
+    .unleash-right{
+        width: 100%;
+    }
+    .ready-text{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    
+
 }
